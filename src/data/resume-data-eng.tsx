@@ -1,14 +1,15 @@
+import { ResumeData } from "@/types/ResumeData";
 import { GitHubIcon, LinkedInIcon, TelegramIcon } from "@/components/icons";
 
-export const RESUME_DATA = {
+export const RESUME_DATA: ResumeData = {
   name: "Krasnov Andrey",
   initials: "KA",
   location: "Cheboksary, Russia, MSK",
   locationLink: "https://www.google.com/maps/place/Cheboksary",
   about:
-    "Full Stack Developer capable of handling all aspects of development, from designing user interfaces to creating and managing databases.",
+    "Full Stack Web Developer with a passion for user experience and interface design.",
   summary:
-    "I am a Frontend React Developer currently transitioning to a Full Stack. I have a 6-year background in the IT industry. During this time, I provided internal software support, worked as a system administrator, and gained some commercial freelance experience in web development. I spent the last two years closely working with React, honing my skills and deepening my understanding of the library. As a team player and a fast learner, I am always eager to collaborate and grow. I am committed to further developing my skills and collaborating on interesting projects. I have proficiency in English at the B2 level.",
+    "I am a Frontend Developer currently transitioning to a Full Stack. Have a 6‑year background in the IT industry. Proficient in English at the B2 level. I am particularly interested in remote work opportunities. My goal is to contribute to interesting projects where I can apply and enhance my skills.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13840466?v=4",
   personalWebsiteUrl: "https://github.com/citizenofjustice",
   contact: {
@@ -18,17 +19,17 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/citizenofjustice",
-        icon: GitHubIcon,
+        icon: <GitHubIcon className="size-4" />,
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/adnrey-krasnov-5a1b68249/",
-        icon: LinkedInIcon,
+        icon: <LinkedInIcon className="size-4" />,
       },
       {
         name: "Telegram",
         url: "https://t.me/ThatCinemaAddict",
-        icon: TelegramIcon,
+        icon: <TelegramIcon className="size-4" />,
       },
     ],
   },
@@ -69,23 +70,28 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2022",
       description:
-        "Maintenance of internal software systems, interaction with software developers for fixing errors, technical support for users",
+        "Maintenance of internal software systems, interaction with software developers for fixing errors, technical support for users, software installation and configuration.",
     },
   ],
   skills: [
+    "HTML/CSS",
     "JavaScript",
     "TypeScript",
+    "Git",
     "React",
     "Redux/Redux-Toolkit/MobX",
     "React Router",
+    "TanStack Query",
     "Tailwind",
-    "Git",
+    "VS Code",
+    "ShadcnUI/MUI",
     "Node.js",
     "Express",
-    "Mongoose/Prisma",
     "MySQL/MongoDB/Postgres",
-    "Firebase/Vercel",
+    "Mongoose/Prisma",
+    "Docker",
     "Nginx",
+    "Firebase/Vercel",
   ],
   projects: [
     {
@@ -143,4 +149,4 @@ export const RESUME_DATA = {
       },
     },
   ],
-} as const;
+};

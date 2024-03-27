@@ -78,3 +78,8 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+.print-bg-color {
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
