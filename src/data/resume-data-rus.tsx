@@ -23,7 +23,7 @@ export const RESUME_DATA: ResumeData = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/adnrey-krasnov-5a1b68249/",
+        url: "https://www.linkedin.com/in/andrey-krasnov-5a1b68249/",
         icon: <LinkedInIcon className="size-4" />,
       },
       {
