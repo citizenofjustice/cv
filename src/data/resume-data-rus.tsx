@@ -4,8 +4,8 @@ import { ResumeData } from "@/types/ResumeData";
 export const RESUME_DATA: ResumeData = {
   name: "Краснов Андрей",
   initials: "КА",
-  location: "Чебоксары, Россия, МСК",
-  locationLink: "https://www.google.com/maps/place/Cheboksary",
+  location: "Белград, Сербия, CEST",
+  locationLink: "https://www.google.com/maps/place/Belgrade",
   about:
     "Full Stack веб разработчик с фокусом на дизайне интерфейсов и пользовтельском опыте.",
   summary:

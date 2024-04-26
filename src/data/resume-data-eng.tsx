@@ -4,8 +4,8 @@ import { GitHubIcon, LinkedInIcon, TelegramIcon } from "@/components/icons";
 export const RESUME_DATA: ResumeData = {
   name: "Krasnov Andrey",
   initials: "KA",
-  location: "Cheboksary, Russia, MSK",
-  locationLink: "https://www.google.com/maps/place/Cheboksary",
+  location: "Belgrade, Serbia, CEST",
+  locationLink: "https://www.google.com/maps/place/Belgrade",
   about:
     "Full Stack Web Developer with a passion for user experience and interface design.",
   summary:
