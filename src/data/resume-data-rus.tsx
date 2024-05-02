@@ -148,5 +148,25 @@ export const RESUME_DATA: ResumeData = {
         href: "https://rosautoprokat.ru",
       },
     },
+    {
+      title: "InternetLab лендинг",
+      techStack: ["TypeScript", "React", "Sass"],
+      description:
+        "Лендинг созданный по макету в Figma (для тестового задания)",
+      link: {
+        label: "Internetlab лендинг",
+        href: "https://citizenofjustice.github.io/internetlab-test/",
+      },
+    },
+    {
+      title: "PlaneTicketsApp",
+      techStack: ["TypeScript", "React", "Tailwind", "Vite", "MobX"],
+      description:
+        "Билеты на самолет с калькулятором валют (для тестового задания)",
+      link: {
+        label: "IdeaPlatform landing",
+        href: "https://citizenofjustice.github.io/idea-platform/",
+      },
+    },
   ],
 };
